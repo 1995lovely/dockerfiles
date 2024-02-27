@@ -1,4 +1,4 @@
-# Use the official CentOS image as the base image
+# Use the official ubuntu image as the base image
 FROM ubuntu:latest
 # Install necessary packages (Apache web server)
 RUN apt-get update 
