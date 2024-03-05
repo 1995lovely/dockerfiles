@@ -18,4 +18,4 @@ RUN cp -rvf carvilla-v1.0/* .
 # Expose port 80 for web traffic
 EXPOSE 80
 # Start the Apache web server
-CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
+CMD apachectl -D FOREGROUND
