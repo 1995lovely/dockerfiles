@@ -16,6 +16,6 @@ RUN unzip carvilla.zip
 # copy unzip file in the present directory
 RUN cp -rvf carvilla-v1.0/* .
 # Expose port 80 for web traffic
-EXPOSE 80
+EXPOSE 80 22
 # Start the Apache web server
 CMD apachectl -D FOREGROUND
